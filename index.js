@@ -5,7 +5,7 @@ const WS_PORT = 8080;
 const DESTINATION_WS_URL = 'ws://146.190.205.126:8008';
 
 // Create a WebSocket server that listens on 0.0.0.0
-const wss = new WebSocket.Server({ host: '0.0.0.0', port: WS_PORT }, () => {
+const wss = new WebSocket.Server({  port: WS_PORT }, () => {
   //console.log(`WebSocket server is listening on ws://0.0.0.0:${WS_PORT}`);
 });
 
