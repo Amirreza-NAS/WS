@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
 // Define the server port and destination WebSocket URL
-const WS_PORT = 80;
+const WS_PORT = 8080;
 const DESTINATION_WS_URL = 'ws://46.101.144.136:8008';
 
 // Create a WebSocket server that listens on 0.0.0.0
