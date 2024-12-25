@@ -1,8 +1,8 @@
 const WebSocket = require('ws');
 
 // Define the server port and destination WebSocket URL
-const WS_PORT = 8080;
-const DESTINATION_WS_URL = 'ws://46.101.144.136:8008';
+const WS_PORT = 80;
+const DESTINATION_WS_URL = 'ws://165.22.202.133:8008';
 
 // Create a WebSocket server that listens on 0.0.0.0
 const wss = new WebSocket.Server({  port: WS_PORT }, () => {
