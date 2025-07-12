@@ -1,17 +1,16 @@
 {
-  "name": "ws",
+  "name": "MEEEEEEEMEEEEE",
   "version": "1.0.0",
+  "description": "Simple server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "ws": "^8.12.1"
-  }
+    "http-proxy": "^1.18.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
 }
-
-
